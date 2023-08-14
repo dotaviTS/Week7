@@ -55,7 +55,7 @@ API stands for Application Programming Interface. It's a set of rules and protoc
 
 * [Rest API and OpenAPI](https://www.youtube.com/watch?v=pRS9LRBgjYg&pp=ygUHb3BlbmFwaQ%3D%3D)
 * [Better API Design with OpenAPI](https://www.youtube.com/watch?v=uBs6dfUgxcI&pp=ygUHb3BlbmFwaQ%3D%3D)
-* [OpenAPI 3.0 Specification]https://spec.openapis.org/oas/latest.html
+* [OpenAPI 3.0 Specification](https://spec.openapis.org/oas/latest.html)
 
 1. Introduction
 

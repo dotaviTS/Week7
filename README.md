@@ -57,11 +57,11 @@ API stands for Application Programming Interface. It's a set of rules and protoc
 * [Better API Design with OpenAPI](https://www.youtube.com/watch?v=uBs6dfUgxcI&pp=ygUHb3BlbmFwaQ%3D%3D)
 * [OpenAPI 3.0 Specification](https://spec.openapis.org/oas/latest.html)
 
-1. Introduction - What is OAS?
+### 1. Introduction - What is OAS?
 - OAS (formerly known as Swagger) is a specification for building APIs. OAS defines a standard, language-agnostic interface to RESTful APIs.
 Allows both humans and computers to understand the capabilities of a service without accessing its source code or seeing further documentation.
 
-2. Major Components
+### 2. Major Components
 
 - OpenAPI Object: The root document object of the OAS document.
 

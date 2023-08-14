@@ -81,7 +81,7 @@ Allows both humans and computers to understand the capabilities of a service wit
 
 ## Course Material on Setting up an API
 
-* [First Endpoint in Elixir!](https://www.youtube.com/watch?v=UgQTcvdbccA)
+* [0. First Endpoint in Elixir](https://www.youtube.com/watch?v=UgQTcvdbccA)
 
 * [1. Spin up a Postgres Docker Container locally](https://www.youtube.com/watch?v=LGY_eILc8Ks)
 

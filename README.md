@@ -1,5 +1,10 @@
-# Week7
-Internship Week7 Material
+# Week 7
+# Tauspace Developer Internship 
+
+## Outcomes:
+1. Understand API's
+2. Build a simple Elixir REST API.
+3. Document the API endpoints.
 
 ### Prerequisites
 
@@ -46,7 +51,11 @@ API stands for Application Programming Interface. It's a set of rules and protoc
 
 * gRPC: Developed by Google, gRPC is a high-performance, open-source framework that uses HTTP/2 for transport and Protocol Buffers as the interface description language.
 
-### OAS 3.0 Specification
+## OAS 3.0 Specification
+
+[Rest API and OpenAPI](https://www.youtube.com/watch?v=pRS9LRBgjYg&pp=ygUHb3BlbmFwaQ%3D%3D)
+[Better API Design with OpenAPI](https://www.youtube.com/watch?v=uBs6dfUgxcI&pp=ygUHb3BlbmFwaQ%3D%3D)
+
 
 1. Introduction
 
@@ -64,11 +73,15 @@ Paths Object: Defines the available paths and operations for the API.
 
 Components Object: A set of reusable objects for different aspects of the OAS. Can include schemas (like JSON schemas for request and response bodies), parameters, responses, examples, request bodies, headers, security schemes, links, callbacks, and more.
 
+[IANA Status Codes](https://www.iana.org/assignments/http-status-codes/http-status-codes.xhtml)
+[OpenAPI Definitions Designer](https://openapidesigner.com/)
+
+
 
 [Please read this page](https://blog.logrocket.com/build-rest-api-elixir-phoenix/)
 
 
-### Course Material on Setting up an API
+## Course Material on Setting up an API
 
 * [First Endpoint in Elixir!](https://www.youtube.com/watch?v=UgQTcvdbccA)
 
@@ -102,12 +115,9 @@ Components Object: A set of reusable objects for different aspects of the OAS. C
 
 * [15. Password Required to Update Account in our Elixir REST API Tutorial](https://www.youtube.com/watch?v=hmQ2K6dvqXk)
 
-*[16. Documenting the API]
+* [16. Documenting the API](www.google.co.za)
 
 
 [PostGres Cheatsheet](https://postgrescheatsheet.com)
 
-
-
-Different deployment options and best practices.
-Exercise: Deploy the books API to a platform of their choice, like Heroku or a cloud provider.
+CICD

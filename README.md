@@ -21,9 +21,9 @@ PowerShell will run the cmdlet and initiate the Hyper-V enabling process.
 
 We will be using Postgres on ubuntu in your Hyper-V VM.
 
-## APIs
+## 1. APIs
 
-### What is an API?
+### 1.1 What is an API?
 
 API stands for Application Programming Interface. It's a set of rules and protocols that allows different software applications to communicate with each other. Think of it as a menu in a restaurant. You, the customer, have a list of dishes you can order, prepared by the kitchen. The waiter (API) takes your request to the kitchen and brings back the dish you ordered. In this analogy:
 - You are the user.
@@ -32,7 +32,7 @@ API stands for Application Programming Interface. It's a set of rules and protoc
 - The dish that is served to you is the response.
 - In a technical context, when you use an app on your phone to check the weather, the app sends a request to a server via an API. The server processes the request, retrieves the data, and sends it back to your app, which then displays the weather to you.
 
-### Why are APIs important?
+### 1.2 Why are APIs important?
 
 * Interoperability: APIs allow different software systems, which might have been developed independently and possibly in entirely different programming languages, to work together.
 * Modularity: Systems can be built modularly, with different components interacting through well-defined APIs. This makes development, scaling, and troubleshooting easier.
@@ -40,7 +40,7 @@ API stands for Application Programming Interface. It's a set of rules and protoc
 * Efficiency: APIs can provide a standardized way to provide and receive data, which can lead to faster development and integration times.
 * Economic Value: Companies often monetize their data and services through APIs. For instance, cloud providers offer a plethora of services accessed primarily through APIs.
 
-### Different types of APIs:
+### 1.3 Different types of APIs:
 * REST (Representational State Transfer): REST is an architectural style for distributed systems. RESTful APIs use HTTP requests to perform CRUD (Create, Read, Update, Delete) operations on resources, which are represented as URLs.
 
 * GraphQL: Developed by Facebook, GraphQL is a query language for APIs. Instead of having multiple endpoints, GraphQL APIs typically have a single endpoint that can interpret and respond to complex queries, allowing clients to request only the data they need.
@@ -51,17 +51,17 @@ API stands for Application Programming Interface. It's a set of rules and protoc
 
 * gRPC: Developed by Google, gRPC is a high-performance, open-source framework that uses HTTP/2 for transport and Protocol Buffers as the interface description language.
 
-## OAS 3.0 Specification
+## 2. OAS 3.0 Specification
 
 * [Rest API and OpenAPI](https://www.youtube.com/watch?v=pRS9LRBgjYg&pp=ygUHb3BlbmFwaQ%3D%3D)
 * [Better API Design with OpenAPI](https://www.youtube.com/watch?v=uBs6dfUgxcI&pp=ygUHb3BlbmFwaQ%3D%3D)
 * [OpenAPI 3.0 Specification](https://spec.openapis.org/oas/latest.html)
 
-### 1. Introduction - What is OAS?
+### 2.1. Introduction - What is OAS?
 - OAS (formerly known as Swagger) is a specification for building APIs. OAS defines a standard, language-agnostic interface to RESTful APIs.
 Allows both humans and computers to understand the capabilities of a service without accessing its source code or seeing further documentation.
 
-### 2. Major Components
+### 2.2 Major Components
 
 - OpenAPI Object: The root document object of the OAS document.
 
@@ -79,7 +79,7 @@ Allows both humans and computers to understand the capabilities of a service wit
 [Please read this page](https://blog.logrocket.com/build-rest-api-elixir-phoenix/)
 
 
-## Course Material on Setting up an API
+## 3. Course Material on Setting up an API
 
 * [0. First Endpoint in Elixir](https://www.youtube.com/watch?v=UgQTcvdbccA)
 

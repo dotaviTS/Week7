@@ -6,12 +6,16 @@ Concurrency is achieved through processes. Processes are lightweight, isolated, 
 Tasks provide a way to perform computations concurrently. They are useful for running a computation in parallel with your current process.
 
 ## Starting the Bank Account GenServer
-Here's how you can start a GenServer with an initial balance for our bank account example:
+
+In the past, we started the GenServer with an initial balance for our bank account example using:
 
 ```
 {:ok, pid} = BankAccount.start_link(1000)
 ```
-
+I updated the start link for the genserver, to be a named pid, :bank_acccount , so calling any of the functions can be done like:
+```
+BankAccount.start_link(1000)
+```
 ## Depositing Money
 Deposit an amount into the account:
 

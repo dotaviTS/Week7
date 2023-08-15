@@ -153,11 +153,11 @@ Explore more in the Elixir documentation, especially the guides on GenServer and
 
 Additional Resources
 [Elixir School: Concurrency](https://elixirschool.com/en/lessons/advanced/concurrency/)
+
 [Elixir Getting Started: Processes](https://elixir-lang.org/getting-started/processes.html)
+
 [Elixir Guides]: Tasks(https://elixir-lang.org/getting-started/mix-otp/task-and-gen-tcp.html)
 
-
-Experimenting with these concepts and writing tests will help deepen your understanding. 
 
 
 

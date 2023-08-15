@@ -77,7 +77,8 @@ Allows both humans and computers to understand the capabilities of a service wit
 
 
 [Please read this page](https://blog.logrocket.com/build-rest-api-elixir-phoenix/)
-
+^^Focus on the architecture diagrams.
+--> If anyone knows how to embed them here, please add
 
 ## 3. Course Material on Setting up an API
 

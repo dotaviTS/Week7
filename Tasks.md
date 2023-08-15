@@ -153,38 +153,38 @@ Explore more in the Elixir documentation, especially the guides on GenServer and
 
 ## Exercises - Please do these in a separate Exercises Branch.
 
-1: Basic Operations
-Task: Start a BankAccount with an initial balance of 500, deposit 300, and withdraw 200. Check the balance at each step.
-Hint: Use BankAccount.start_link, BankAccount.deposit, BankAccount.withdraw, and BankAccount.balance.
+#### 1. Basic Operations
+- Task: Start a BankAccount with an initial balance of 500, deposit 300, and withdraw 200. Check the balance at each step.
+- Hint: Use BankAccount.start_link, BankAccount.deposit, BankAccount.withdraw, and BankAccount.balance.
 
-2: Concurrent Deposits
+#### 2. Concurrent Deposits
 Task: Start a BankAccount with an initial balance of 1000. Spawn 5 processes to deposit 100 each concurrently. Check the final balance.
 Hint: Use spawn or Task.async to perform the deposits concurrently.
 
-3: Concurrent Withdrawals
+#### 3. Concurrent Withdrawals
 Task: Start a BankAccount with an initial balance of 1000. Spawn 5 processes to withdraw 100 each concurrently. Check the final balance.
 Hint: Think about synchronization and how GenServer handles concurrent withdrawals.
 
-4: Mixed Concurrent Deposits and Withdrawals
+#### 4. Mixed Concurrent Deposits and Withdrawals
 Task: Start a BankAccount with an initial balance of 1000. Spawn 10 processes, 5 for depositing 100 each, and 5 for withdrawing 50 each. Check the final balance.
 Hint: You can use tasks to manage the concurrent operations.
 
-5: Error Handling
+#### 5. Error Handling
 Task: Start a BankAccount with an initial balance of 500. Try to withdraw 600 and handle the "Insufficient funds" error gracefully.
 Hint: Pay attention to the return value when the withdrawal amount exceeds the balance.
 
-6: Writing Tests for Concurrency
+#### 6. Writing Tests for Concurrency
 Task: Write an ExUnit test that verifies the concurrent handling of deposits and withdrawals in the BankAccount module.
 Hint: You can use Task.async and Task.await as shown in the previous explanation.
 
-7: Logger
+#### 7. Logger
 Task: Explore the logged messages by performing various operations. Try concurrent deposits and withdrawals and observe the log messages.
 Hint: Logger messages are used in the BankAccount module to log different operations. Use Logger.info and Logger.warn in iEX to see the messages.
 
-8: Challenge - Implement a Transfer Function
+####8. Challenge - Implement a Transfer Function
 Task: Implement a function that transfers money between two different bank accounts. Ensure that the operation is atomic and handles concurrency correctly.
 Hint: Think about how to ensure that the transfer operation is atomic and how GenServer can be leveraged to synchronize the operations.
-
+^^Maybe lets add this to the TSBank app as a feature
 
 ## Additional Resources
 [Elixir School: Concurrency](https://elixirschool.com/en/lessons/advanced/concurrency/)

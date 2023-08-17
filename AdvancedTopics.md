@@ -228,6 +228,6 @@ Add Guard Clauses: Include guard clauses to validate inputs.
 
 Extra REading:
 
-(Elixir Supervisors)[https://elixir-lang.org/getting-started/mix-otp/supervisor-and-application.html]
+[Elixir Supervisors](https://elixir-lang.org/getting-started/mix-otp/supervisor-and-application.html)
 
 (Elixir Registry)[https://hexdocs.pm/elixir/Registry.html]

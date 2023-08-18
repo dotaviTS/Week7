@@ -1,4 +1,4 @@
-# Lesson: Advanced Concurrency, Supervision, and Registry in Elixir
+# Lesson: More Concurrency, Supervision, and Registry in Elixir
 
 ## Part 1: Supervisors
 
